@@ -1,0 +1,127 @@
+I want you to modify the existing "ElMalahy – The Land of Amusement" website project built with Next.js (App Router) and React.
+
+IMPORTANT:
+- Do NOT change anything that is not explicitly mentioned below.
+- Keep the same layout, colors, typography, spacing, animations, and structure.
+- Maintain full responsiveness (Desktop & Mobile).
+- Apply ONLY the following updates.
+
+--------------------------------------------------
+1) ADD LOGIN & SIGN UP SYSTEM
+--------------------------------------------------
+
+Add authentication functionality with the following requirements:
+
+A) Add two buttons in the Navbar:
+   - Log In
+   - Sign Up
+
+They must:
+   - Match the existing design style
+   - Be responsive
+   - Not break navbar alignment
+
+B) Sign Up Page Requirements:
+   - Full Name
+   - Email
+   - Phone Number
+   - Password
+   - Confirm Password
+   - Submit button
+
+C) Store the following user data in the database:
+   - Full Name
+   - Email (must be unique)
+   - Phone Number (must be unique)
+   - Hashed Password
+   - Created At timestamp
+
+D) If a user tries to Sign Up with:
+   - An email that already exists
+   OR
+   - A phone number that already exists
+
+Show error message:
+"This email or phone number is already registered. Please log in instead."
+
+E) Login Page:
+   - Allow login using:
+        - Email + Password
+        OR
+        - Phone Number + Password
+   - If credentials are valid → redirect to user account dashboard.
+   - If invalid → show proper error message.
+
+F) Password must be securely hashed.
+G) Use proper authentication session handling (JWT or secure session).
+H) Protect private routes.
+
+--------------------------------------------------
+2) FORCE AUTHENTICATION BEFORE BOOKING
+--------------------------------------------------
+
+If a user is NOT logged in and clicks on "Book Now" for any bundle:
+
+- Automatically redirect them to the Sign Up / Log In page.
+- After successful authentication:
+     → Redirect them back to the intended booking page.
+
+If user is already logged in:
+- Allow booking normally without interruption.
+
+Do NOT change booking logic except adding authentication guard.
+
+--------------------------------------------------
+3) INCREASE LOGO SIZE AGAIN
+--------------------------------------------------
+
+Further enlarge the "ElMalahy" logo in the Navbar.
+
+Requirements:
+- Make it clearly visible on:
+   - Desktop (PC View)
+   - Mobile View
+- Maintain proportional scaling.
+- Do NOT distort the logo.
+- Adjust navbar height slightly if needed.
+- Keep layout clean and aligned.
+- Do not replace logo file.
+
+--------------------------------------------------
+4) FIX TOP THRILL PAGE SCROLL POSITION
+--------------------------------------------------
+
+When clicking on any Top Thrill section (Axis, Taswera, Kove, Filtrd):
+
+Currently:
+- Page opens but may scroll to bottom or previous scroll position.
+
+Required Fix:
+- Ensure navigation always opens the new page from the TOP.
+- Automatically scroll to top on route change.
+- Works correctly on both Desktop and Mobile.
+- Smooth user experience.
+
+Do NOT modify the Top Thrill design.
+Only fix navigation behavior.
+
+--------------------------------------------------
+TECHNICAL STRUCTURE REQUIREMENTS
+--------------------------------------------------
+
+- Use Next.js App Router
+- Use API routes for authentication
+- Use secure password hashing (bcrypt)
+- Use proper middleware for route protection
+- Maintain clean folder structure
+- Production-ready implementation
+
+--------------------------------------------------
+FINAL RULE
+--------------------------------------------------
+
+Do not redesign anything.
+Do not change colors or styling.
+Do not restructure existing components.
+Only implement the authentication system, booking guard, logo resizing, and scroll-to-top fix as described above.
+Keep the project clean and scalable.

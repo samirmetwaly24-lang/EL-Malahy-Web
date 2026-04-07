@@ -1,0 +1,109 @@
+I want you to enhance the existing "ElMalahy – The Land of Amusement" website built with Next.js and React.
+
+IMPORTANT:
+- Do NOT change the layout structure.
+- Do NOT modify the existing branding (colors, typography, spacing system).
+- Do NOT redesign sections.
+- Only integrate the elements from the uploaded file in a creative, elegant, and visually appealing way.
+
+--------------------------------------------------
+MAIN OBJECTIVE
+--------------------------------------------------
+
+Use the design elements provided in the uploaded file (icons, shapes, decorative assets, patterns, illustrations, UI accents, or graphic components) throughout the website in a visually harmonious and creative way.
+
+The goal is to:
+- Make the website more attractive
+- Enhance visual engagement
+- Improve user experience
+- Make the design feel more dynamic and alive
+- Keep it comfortable for the eyes
+- Maintain a professional amusement-park theme
+
+--------------------------------------------------
+HOW TO USE THE ELEMENTS
+--------------------------------------------------
+
+1) Integrate elements as:
+   - Background decorative shapes
+   - Section dividers
+   - Floating subtle animations
+   - Decorative corner accents
+   - Subtle hover effects
+   - Soft layered backgrounds
+   - Card highlights
+   - Icon enhancements
+
+2) Use them in:
+   - Hero section
+   - Packages section
+   - Top Thrill section
+   - Rides section
+   - Call-To-Action section
+   - Footer
+
+3) Maintain visual balance:
+   - Do NOT overcrowd the layout.
+   - Use white space intelligently.
+   - Keep hierarchy clear.
+   - Maintain readability.
+
+4) Make the integration:
+   - Smooth
+   - Clean
+   - Modern
+   - Emotionally engaging
+   - Aligned with amusement park energy
+
+5) Add subtle animations where appropriate:
+   - Floating motion
+   - Fade-in on scroll
+   - Soft glowing effects
+   - Parallax background accents (light and smooth only)
+
+--------------------------------------------------
+VISUAL EXPERIENCE RULES
+--------------------------------------------------
+
+- The final result must feel premium.
+- The design must feel fun but not chaotic.
+- Avoid excessive motion.
+- Keep the website comfortable for long browsing.
+- Maintain responsiveness across Desktop and Mobile.
+- Ensure performance optimization (lazy loading for decorative assets).
+
+--------------------------------------------------
+CREATIVE DIRECTION
+--------------------------------------------------
+
+Think like a senior UI/UX designer working on a modern amusement park brand.
+
+The elements should:
+- Support the content
+- Guide the user’s attention
+- Increase excitement
+- Improve conversion potential
+- Strengthen brand personality
+
+--------------------------------------------------
+TECHNICAL REQUIREMENTS
+--------------------------------------------------
+
+- Use TailwindCSS for styling
+- Use Framer Motion for subtle animations if needed
+- Keep components clean and reusable
+- Do not duplicate code
+- Maintain production-ready structure
+
+--------------------------------------------------
+FINAL RULE
+--------------------------------------------------
+
+Do NOT change:
+- Layout structure
+- Navigation
+- Core functionality
+- Typography system
+- Color palette
+
+Only enhance the visual appeal using the uploaded elements in a creative and harmonious way.

@@ -1,0 +1,117 @@
+I want you to modify the existing "ElMalahy – The Land of Amusement" website built with Next.js (App Router) and React.
+
+IMPORTANT:
+- Do NOT redesign any section.
+- Do NOT change typography.
+- Do NOT change colors.
+- Do NOT restructure layout.
+- Do NOT modify spacing system.
+- Only apply the requested fixes and optimizations below.
+- Maintain production-ready clean architecture.
+
+--------------------------------------------------
+1) REMOVE SPECIFIC EVENTS
+--------------------------------------------------
+
+From the Events page:
+
+Remove the following events completely:
+
+- "Summer Splash Festival"
+- "Spooky Nights"
+
+Ensure:
+- They are removed from UI.
+- They are removed from any hardcoded data arrays.
+- No empty gaps remain in layout.
+- No console errors occur.
+
+Do NOT modify other events.
+
+--------------------------------------------------
+2) FIX LAG WHEN OPENING EVENTS PAGE
+--------------------------------------------------
+
+Currently:
+The Events page takes noticeable time to load.
+
+Required:
+- Identify the cause (heavy images, blocking scripts, unnecessary re-renders, etc.).
+- Optimize rendering performance.
+- Implement proper lazy loading for images using Next.js Image optimization.
+- Avoid unnecessary client-side heavy logic.
+- Remove blocking animations.
+- Use dynamic import only if necessary and properly handled.
+- Ensure fast initial page render.
+- Improve Lighthouse performance score.
+
+The page should open instantly and feel smooth.
+
+--------------------------------------------------
+3) SAFETY & GUIDELINES SECTION – LAG STILL NOT FIXED
+--------------------------------------------------
+
+The lag when scrolling to the "Safety & Guidelines" section is still happening.
+
+You must:
+
+- Fully diagnose the issue.
+- Remove any blocking rendering logic.
+- Optimize image loading (priority where needed).
+- Avoid heavy animation libraries.
+- Prevent layout shift (CLS issues).
+- Use efficient scroll-trigger detection (Intersection Observer properly configured).
+- Ensure no hydration mismatch.
+- Ensure no unnecessary state updates.
+
+Scrolling to this section must feel instant and smooth.
+
+--------------------------------------------------
+4) ADD ANIMATIONS TO "SAFETY & GUIDELINES" SECTION
+--------------------------------------------------
+
+Add ONLY the following animations:
+
+- Smooth fade-in on scroll.
+- Very subtle floating animation for image cards.
+- No heavy motion effects.
+- No lag.
+- No performance drop.
+
+Animation Requirements:
+- Lightweight implementation.
+- GPU-optimized transforms only.
+- No large reflows.
+- Duration between 400ms–700ms.
+- Ease-out transition.
+
+Animations must:
+- Feel premium.
+- Be subtle.
+- Not affect performance.
+- Work smoothly on mobile.
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT:
+- Redesign the section.
+- Change layout.
+- Modify text.
+- Alter branding.
+- Break booking/authentication flow.
+
+Only:
+- Remove specified events.
+- Fix Events page loading delay.
+- Completely resolve Safety & Guidelines lag.
+- Add optimized lightweight animations.
+
+Final result must feel:
+Fast.
+Smooth.
+Optimized.
+Premium.
+Stable.
+Production-ready.

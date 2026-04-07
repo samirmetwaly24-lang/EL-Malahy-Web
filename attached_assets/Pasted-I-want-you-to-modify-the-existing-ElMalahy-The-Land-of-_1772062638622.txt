@@ -1,0 +1,125 @@
+I want you to modify the existing "ElMalahy – The Land of Amusement" website built with Next.js and React.
+
+IMPORTANT:
+- Do NOT redesign any section.
+- Do NOT change typography system.
+- Do NOT change layout structure.
+- Do NOT change brand colors.
+- Do NOT modify spacing globally.
+- Only apply the exact updates listed below.
+- Maintain full responsiveness.
+- Keep production-ready code quality.
+
+--------------------------------------------------
+1) ADD EVENTS TO EVENTS PAGE
+--------------------------------------------------
+
+Add the following events inside the Events page:
+
+Event 1:
+Artist Name: Tamer Ashour
+Date: September 26
+Time: 9:00 PM
+Location: EL ARENA 
+
+Event 2:
+Artist Name: Ramy Sabry
+Date: November 21
+Time: 9:00 PM
+Location: El ARENA 
+
+Requirements:
+- Follow the existing Events card design style.
+- Maintain same layout and animation.
+- Keep typography consistent.
+- Make event cards visually engaging.
+- If artist images are available, use them.
+- Ensure responsive behavior on mobile.
+
+Do NOT redesign the Events page.
+
+--------------------------------------------------
+2) SLIGHTLY INCREASE CTA BACKGROUND IMAGE VISIBILITY
+--------------------------------------------------
+
+In the Call To Action section:
+
+- Slightly increase the opacity/visibility of the background image.
+- The image should appear clearer and more present.
+- Do NOT remove the overlay.
+- Adjust overlay opacity carefully so:
+     - Text remains readable.
+     - The image becomes more visually noticeable.
+- Do NOT change CTA layout or structure.
+
+--------------------------------------------------
+3) FIX LAG IN "SAFETY & GUIDELINES" SECTION
+--------------------------------------------------
+
+Currently, when scrolling to the "Safety & Guidelines" section, 
+there is about a 1-second lag before the section loads.
+
+Required:
+- Optimize the section to eliminate loading delay.
+- Ensure it renders smoothly on scroll.
+- If lazy loading is causing delay, handle it properly.
+- Preload assets if necessary.
+- Avoid blocking rendering.
+- Improve performance without removing animations.
+
+The scroll experience must feel instant and smooth.
+
+--------------------------------------------------
+4) ADD ANIMATION TO "SAFETY & GUIDELINES" SECTION
+--------------------------------------------------
+
+Add the following animations:
+
+- Smooth fade-in on scroll (light and elegant).
+- Very subtle floating animation for image cards.
+- No heavy motion effects.
+- No performance-heavy animation libraries.
+- Keep animation lightweight and optimized.
+
+Animations must:
+- Feel premium.
+- Not distract the user.
+- Work smoothly on mobile.
+
+--------------------------------------------------
+5) ADD SMOOTH FADE-IN ON SCROLL TO CTA SECTION
+--------------------------------------------------
+
+Add a subtle fade-in animation when the Call To Action section 
+enters the viewport.
+
+Requirements:
+- Smooth transition.
+- No delay or lag.
+- Lightweight animation.
+- Maintain performance.
+- Do NOT change CTA layout.
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT:
+- Redesign sections.
+- Change component structure.
+- Modify brand identity.
+- Affect booking/authentication flow.
+
+Only implement:
+- Event additions
+- Background visibility adjustment
+- Performance optimization
+- Subtle animation enhancements
+
+Final result must feel:
+Smooth.
+Optimized.
+Premium.
+Immersive.
+Fast.
+Consistent with ElMalahy branding.

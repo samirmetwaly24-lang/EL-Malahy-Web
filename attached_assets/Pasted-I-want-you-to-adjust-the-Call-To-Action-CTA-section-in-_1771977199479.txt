@@ -1,0 +1,80 @@
+I want you to adjust the Call To Action (CTA) section in the existing 
+"ElMalahy – The Land of Amusement" website.
+
+IMPORTANT:
+- Do NOT redesign the section.
+- Do NOT change colors.
+- Do NOT change typography family.
+- Do NOT change layout structure.
+- Do NOT modify animations.
+- Only optimize sizing and proportions for better responsiveness.
+
+--------------------------------------------------
+1) REDUCE CTA SECTION HEIGHT (MOBILE OPTIMIZATION)
+--------------------------------------------------
+
+The CTA section currently appears too large on Mobile View.
+
+Required:
+- Reduce vertical padding (top & bottom) for mobile screens.
+- Adjust min-height to make the section more compact.
+- Keep proper breathing space (do not make it cramped).
+- Maintain visual balance with the rest of the page.
+
+Desktop view should remain visually strong and slightly spacious.
+Mobile view should feel tighter and more proportional.
+
+--------------------------------------------------
+2) RESIZE "Book Your Adventure" BUTTON
+--------------------------------------------------
+
+The CTA button is currently too large, especially on Mobile View.
+
+Required:
+- Reduce button padding (vertical & horizontal).
+- Slightly reduce font size to match the website’s typography scale.
+- Keep the same:
+     - Font family
+     - Font weight
+     - Colors
+     - Border radius
+     - Hover animation
+     - Transition effects
+
+The button must:
+- Look elegant and balanced
+- Not dominate the section
+- Remain clearly clickable
+- Stay aligned with brand style
+
+--------------------------------------------------
+RESPONSIVE RULES
+--------------------------------------------------
+
+Desktop:
+- Keep strong presence but proportional.
+
+Mobile:
+- Compact layout
+- No oversized button
+- No text wrapping issues
+- Maintain clean spacing
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT:
+- Change section position
+- Modify background image
+- Alter CTA wording
+- Adjust global styles
+
+Only optimize sizing and spacing for better visual harmony and mobile responsiveness.
+
+The final result must feel:
+Balanced.
+Clean.
+Premium.
+Consistent with the ElMalahy branding.
+Production-ready quality.

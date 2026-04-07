@@ -1,0 +1,113 @@
+I want you to update specific UI elements in the existing 
+"ElMalahy – The Land of Amusement" website built with React and Next.js.
+
+IMPORTANT:
+- Do NOT redesign any section.
+- Do NOT change layout structure.
+- Do NOT modify typography.
+- Do NOT affect spacing system.
+- Only apply the updates listed below.
+- Maintain full responsiveness.
+
+--------------------------------------------------
+1) PAGE ICONS BANNER BACKGROUND (THEME-BASED)
+--------------------------------------------------
+
+There is a banner that contains the page icons (navigation icons section).
+
+Required behavior:
+
+A) In LIGHT MODE:
+- The banner background must use the website’s purple brand color.
+- Keep the exact same shade used across the site.
+- Maintain current styling (rounded corners, spacing, etc.).
+
+B) In DARK MODE:
+- Change the banner background to WHITE.
+- Ensure strong contrast between:
+     - background
+     - icons
+     - text (if any)
+
+- Adjust icon colors if necessary to maintain visibility.
+
+Do NOT change layout or structure of the banner.
+
+--------------------------------------------------
+2) LOGO SWITCH BASED ON THEME
+--------------------------------------------------
+
+Implement dynamic logo switching:
+
+A) LIGHT MODE:
+- Use the existing purple "ElMalahy" logo.
+
+B) DARK MODE:
+- Replace it with the uploaded WHITE logo version.
+
+Requirements:
+- Smooth transition when switching themes.
+- No flicker or delay.
+- Maintain logo size and alignment.
+- Do NOT distort the logo.
+
+--------------------------------------------------
+3) ADD HOVER ANIMATION TO PAGE ICONS
+--------------------------------------------------
+
+For all icons inside the page icons banner:
+
+Add a subtle hover animation.
+
+Animation requirements:
+
+- Slight scale-up (zoom effect)
+- Smooth transition (200–300ms)
+- Optional:
+     - slight upward movement (translateY)
+     - soft glow or brightness increase
+
+The animation must feel:
+- smooth
+- lightweight
+- playful (matching amusement park vibe)
+- not distracting
+
+--------------------------------------------------
+RESPONSIVE BEHAVIOR
+--------------------------------------------------
+
+Desktop:
+- Hover animations active.
+
+Mobile:
+- Replace hover with:
+     - tap feedback (scale or ripple effect)
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT:
+- Change icon layout
+- Modify navigation behavior
+- Change colors outside the specified elements
+- Affect other sections
+
+Only implement:
+- Theme-based banner background
+- Theme-based logo switching
+- Icon hover animations
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+The result should feel:
+
+Interactive  
+Clean  
+Visually dynamic  
+Consistent with branding  
+Premium and polished  
+Production-ready

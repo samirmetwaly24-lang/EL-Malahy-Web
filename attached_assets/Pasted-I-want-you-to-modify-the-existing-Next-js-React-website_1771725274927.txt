@@ -1,0 +1,137 @@
+I want you to modify the existing Next.js + React website project for "ElMalahy – The Land of Amusement".
+
+IMPORTANT:
+- Do NOT change anything that is not explicitly mentioned below.
+- Keep the same layout, colors, spacing, typography system, animations, and structure.
+- Apply ONLY the following updates.
+
+--------------------------------------------------
+1) INCREASE WEBSITE LOGO SIZE
+--------------------------------------------------
+
+- Enlarge the "ElMalahy" logo in the Navbar/Header.
+- It must look balanced and proportional with the navbar height.
+- The logo should be clearly visible on both:
+   - Desktop (PC view)
+   - Mobile (Android view)
+- Maintain responsiveness.
+- Do NOT distort the logo.
+- Adjust navbar spacing if needed to keep alignment clean.
+- Keep the same logo file (do not replace it).
+
+--------------------------------------------------
+2) REDUCE CALL-TO-ACTION FONT SIZE
+--------------------------------------------------
+
+- Reduce the font size of the main Call-To-Action section on the Home page.
+- Make it consistent with the typography scale used in the rest of the website.
+- Currently it appears too large on:
+   - Desktop (PC view)
+   - Android view
+- Keep:
+   - Same font family
+   - Same font weight
+   - Same colors
+   - Same animation
+- Only adjust the font size and spacing proportionally.
+
+--------------------------------------------------
+3) REPLACE HERO BACKGROUND REEL
+--------------------------------------------------
+
+- Replace the current hero section background reel video 
+  with the NEW uploaded reel video file.
+- The new video must:
+   - Autoplay
+   - Loop
+   - Be muted
+   - Cover full hero section
+   - Maintain existing overlay gradient
+   - Be optimized for performance
+- Do NOT change:
+   - Hero layout
+   - Text position
+   - Buttons
+   - Animation
+
+Only replace the video source.
+
+--------------------------------------------------
+4) TOP THRILL SECTION – NEW CONTENT UPDATE
+--------------------------------------------------
+
+Replace the existing Top Thrill content with the following 4 featured sections.
+
+Use the EXACT uploaded images for each item.
+Do NOT use placeholders.
+Each item must be clickable and navigate to a dedicated dynamic page for that section.
+
+Add the following:
+
+1) Restaurant "Axis"
+   - Use the uploaded image for Axis restaurant.
+   - Title: Axis
+   - Category label: Restaurant
+   - Short engaging description suitable for a premium amusement park dining experience.
+   - Button: "Explore More"
+
+2) Partition "Taswera"
+   - Use the uploaded image for Taswera.
+   - Title: Taswera
+   - Category label: Photography Experience
+   - Short description explaining it as a fun photo-taking zone inside the park.
+   - Button: "Explore More"
+
+3) Cafe "Kove"
+   - Use the uploaded image for Kove cafe.
+   - Title: Kove
+   - Category label: Cafe
+   - Short modern description that fits amusement park atmosphere.
+   - Button: "Explore More"
+
+4) Cafe "Filtrd"
+   - Use the uploaded image for Filtrd cafe.
+   - Title: Filtrd
+   - Category label: Cafe
+   - Short premium coffee-focused description.
+   - Button: "Explore More"
+
+--------------------------------------------------
+CLICK BEHAVIOR (VERY IMPORTANT)
+--------------------------------------------------
+
+When clicking on ANY of the above items:
+
+- Navigate to a dedicated dynamic page.
+Example structure:
+   /top-thrill/axis
+   /top-thrill/taswera
+   /top-thrill/kove
+   /top-thrill/filtrd
+
+Each page must include:
+- Large header image (same uploaded image)
+- Title
+- Category
+- Detailed description
+- Optional gallery section (if more images are provided)
+- Back button to Top Thrill section
+
+--------------------------------------------------
+DESIGN RULES
+--------------------------------------------------
+
+- Keep the same card style already used in the website.
+- Keep same hover animation.
+- Keep same spacing and typography scale.
+- Maintain full responsiveness.
+- Do NOT change section layout.
+- Do NOT modify other homepage sections.
+
+--------------------------------------------------
+CRITICAL RULE
+--------------------------------------------------
+
+Only update the Top Thrill content as described.
+Do not modify anything else in the project.
+Keep production-ready clean code structure.

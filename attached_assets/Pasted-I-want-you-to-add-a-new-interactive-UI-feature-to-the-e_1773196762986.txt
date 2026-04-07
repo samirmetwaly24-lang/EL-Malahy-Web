@@ -1,0 +1,190 @@
+I want you to add a new interactive UI feature to the existing 
+"ElMalahy – The Land of Amusement" website built with React and Next.js. 
+
+This feature should feel **high-end, modern, and interactive**, similar to the UI control tools used in modern premium websites.
+
+IMPORTANT RULES:
+
+* Do NOT redesign existing sections.
+* Do NOT change the layout grid.
+* Do NOT modify typography system.
+* Do NOT alter the brand color palette in Light Mode.
+* The feature must integrate seamlessly with the existing design.
+
+Only add the feature described below.
+
+---
+
+1️⃣ FLOATING ACTION BUTTON
+
+Create a **floating control button** positioned on the **right side of the screen**.
+
+Position:
+
+* Fixed position
+* Right side of the screen
+* Slightly below the page banner area
+* Always visible during scroll
+
+Design:
+
+* Use the uploaded element as the visual design for the button.
+* Maintain the element's exact shape and style.
+* Add subtle hover animation.
+* Add soft glow or scale effect on hover.
+* Add smooth click interaction.
+
+The button should feel **playful but premium**, matching the amusement park branding.
+
+---
+
+2️⃣ MINI CONTROL PANEL (SLIDE OUT)
+
+When the floating button is clicked:
+
+A **small slide-out panel** should appear.
+
+Panel Design:
+
+* Rounded corners
+* Soft shadow
+* Glass or soft surface effect
+* Clean spacing
+* Elegant modern UI
+
+Opening Animation:
+
+* Smooth slide animation from the side
+* 250–350ms duration
+* Ease-out motion
+
+Closing:
+
+* Clicking outside closes the panel.
+
+---
+
+3️⃣ PANEL FEATURES
+
+Inside the panel include these options:
+
+• 🌙 Dark Mode Toggle
+• 🌓 Light Mode
+• ⚙️ Auto Theme (match system preference)
+• 🎡 UI Style Preview (optional placeholder for future features)
+
+All items must be visually clean and consistent with the website design.
+
+---
+
+4️⃣ ADVANCED DARK MODE SYSTEM
+
+Implement a **fully designed Dark Mode**, not just color inversion.
+
+Dark Mode Requirements:
+
+Backgrounds:
+
+* Deep neutral tones (dark navy / charcoal)
+* Avoid pure black
+
+Cards:
+
+* Slightly lighter surfaces to maintain depth
+
+Text:
+
+* High contrast
+* Comfortable for reading
+
+Buttons:
+
+* Maintain ElMalahy brand colors with adjusted brightness
+
+Links:
+
+* Clear visibility
+
+Hover states:
+
+* Smooth transitions
+
+Icons:
+
+* Maintain clarity in dark environment
+
+The theme must feel:
+
+* Premium
+* Modern
+* Comfortable for night use
+
+---
+
+5️⃣ THEME TRANSITION SYSTEM
+
+When switching between themes:
+
+* Add smooth transition animation (300ms).
+* Avoid flash of incorrect theme (FOUC).
+* Apply transition to:
+
+  * background colors
+  * text colors
+  * card surfaces
+  * buttons
+
+---
+
+6️⃣ USER PREFERENCE STORAGE
+
+Save the selected theme in **localStorage**.
+
+Behavior:
+
+* If user selects Dark Mode → remember it.
+* If user selects Light Mode → remember it.
+* If Auto → follow system preference.
+
+When the user revisits the site:
+
+* Apply saved theme instantly before page render.
+
+---
+
+7️⃣ RESPONSIVE BEHAVIOR
+
+Desktop:
+
+* Panel opens next to floating button.
+
+Mobile:
+
+* Panel becomes slightly wider.
+* Maintain comfortable spacing.
+* Ensure the floating button does not block important UI.
+
+---
+
+8️⃣ PERFORMANCE REQUIREMENTS
+
+* Avoid heavy animation libraries.
+* Keep interactions lightweight.
+* Use GPU-friendly animations (transform / opacity).
+* Ensure no performance drop.
+
+---
+
+
+
+FINAL RESULT
+
+The feature should feel:
+
+• Interactive
+• Modern
+• Premium
+• Smooth
+• Engaging
+
+It should enhance the website without breaking the existing design or branding.

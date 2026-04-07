@@ -1,0 +1,96 @@
+I want to enhance the Dark Mode background of the existing 
+"ElMalahy – The Land of Amusement" website built with React and Next.js.
+
+IMPORTANT:
+- Do NOT change the layout.
+- Do NOT modify typography.
+- Do NOT redesign sections.
+- Do NOT alter Light Mode.
+- Only adjust the Dark Mode background styling.
+
+--------------------------------------------------
+DARK MODE BACKGROUND STYLE
+--------------------------------------------------
+
+Create a background in Dark Mode that looks similar to a night sky 
+(like the reference image provided), but with a much cleaner and 
+more subtle appearance.
+
+Requirements:
+
+1) Use a deep dark background tone such as:
+   - dark navy
+   - charcoal
+   - deep midnight blue
+
+2) Add a subtle star-like effect:
+   - Very small scattered light dots
+   - Low density (far fewer stars than the reference image)
+   - Soft opacity
+   - Slight blur for realism
+
+3) The stars should be:
+   - Minimal
+   - Soft
+   - Not distracting
+   - Not crowded
+
+The goal is to create a calm, premium night-sky atmosphere.
+
+--------------------------------------------------
+VISUAL BALANCE
+--------------------------------------------------
+
+Ensure that:
+
+- Text remains highly readable.
+- Buttons remain clearly visible.
+- Cards and sections stand out from the background.
+- The background does not overpower the content.
+
+Use subtle gradients if needed to maintain depth.
+
+--------------------------------------------------
+OPTIONAL SUBTLE EFFECT
+--------------------------------------------------
+
+If possible, add a very light ambient effect such as:
+
+- extremely slow floating particles
+OR
+- slight parallax star movement
+
+But keep it very minimal to avoid performance issues.
+
+--------------------------------------------------
+RESPONSIVE REQUIREMENTS
+--------------------------------------------------
+
+The background must look good on:
+
+Desktop  
+Tablet  
+Mobile
+
+Stars should scale properly and not cluster.
+
+--------------------------------------------------
+PERFORMANCE RULE
+--------------------------------------------------
+
+- Use lightweight CSS or canvas-based effect.
+- Avoid heavy animations.
+- Ensure no impact on scroll performance.
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+The dark mode background should feel:
+
+Premium  
+Calm  
+Modern  
+Comfortable for the eyes  
+Subtle night-sky inspired  
+Consistent with the ElMalahy amusement park theme.

@@ -1,0 +1,115 @@
+I want you to create a new section in the existing "ElMalahy – The Land of Amusement" website.
+
+The section must visually replicate the layout and structure of the reference image provided.
+
+IMPORTANT:
+- Keep the SAME layout structure.
+- Keep the SAME image positioning style.
+- Keep the SAME card overlapping effect.
+- Keep the SAME spacing proportions.
+- Keep the SAME visual hierarchy.
+- DO NOT copy travel-related content.
+- Adapt all text, colors, and images to match ElMalahy amusement park branding.
+
+--------------------------------------------------
+LAYOUT STRUCTURE (MUST MATCH REFERENCE)
+--------------------------------------------------
+
+Left Side:
+- Small subtitle text on top
+- Large bold heading
+- Supporting paragraph
+- Two feature rows with:
+     - Icon
+     - Title
+     - Description
+
+Right Side:
+- Two overlapping vertical cards/images
+- One slightly rotated and layered behind the other
+- Soft shadow effect
+- Rounded corners
+- Slight depth effect
+
+--------------------------------------------------
+CONTENT ADAPTATION (FOR EL MALAHY)
+--------------------------------------------------
+
+Replace travel-related content with amusement park themed content.
+
+Small Subtitle:
+"Experience The Magic"
+
+Main Heading:
+"Discover Unlimited Fun At ElMalahy"
+
+Paragraph:
+Create an engaging paragraph about thrill rides, family fun, unforgettable memories, and immersive experiences inside the park.
+
+Feature 1:
+Title: "Top Thrill Attractions"
+Description: Highlight exciting rides and adrenaline experiences.
+
+Feature 2:
+Title: "Safe & Family Friendly"
+Description: Emphasize safety standards and family enjoyment.
+
+Icons:
+Use amusement-themed icons (rides, safety shield, fun elements).
+Match website icon style.
+
+--------------------------------------------------
+IMAGE REQUIREMENTS
+--------------------------------------------------
+
+Replace travel images with:
+
+Image 1:
+High-quality image of a thrilling ride inside ElMalahy.
+
+Image 2:
+High-quality image of families or colorful park atmosphere.
+
+Maintain:
+- Overlapping layout
+- Soft shadow
+- Rounded edges
+- Slight tilt effect
+
+--------------------------------------------------
+COLOR & STYLE RULES
+--------------------------------------------------
+
+- Use existing ElMalahy color palette.
+- Do NOT introduce foreign color themes.
+- Keep typography system consistent.
+- Maintain responsiveness.
+- On mobile:
+    - Images stack cleanly
+    - Text appears above images
+    - Maintain visual balance
+
+--------------------------------------------------
+ANIMATION (OPTIONAL BUT SUBTLE)
+--------------------------------------------------
+
+- Add smooth fade-in on scroll.
+- Very subtle floating animation for image cards.
+- No heavy motion effects.
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT redesign the entire page.
+Do NOT change global styling.
+Do NOT modify other sections.
+Only create this new section styled exactly like the reference layout but adapted to ElMalahy branding.
+
+The result must look:
+Premium.
+Engaging.
+Colorful.
+Fun.
+Modern.
+And fully aligned with the amusement park identity.

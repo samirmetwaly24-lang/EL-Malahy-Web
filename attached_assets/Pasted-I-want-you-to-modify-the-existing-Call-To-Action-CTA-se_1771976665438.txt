@@ -1,0 +1,66 @@
+I want you to modify the existing Call To Action (CTA) section in the "ElMalahy – The Land of Amusement" website.
+
+IMPORTANT:
+- Do NOT change the layout structure.
+- Do NOT change typography.
+- Do NOT change button style.
+- Do NOT change colors.
+- Do NOT modify spacing system globally.
+- Only apply the following update.
+
+--------------------------------------------------
+BACKGROUND UPDATE
+--------------------------------------------------
+
+1) Replace the current CTA background with the newly uploaded image.
+
+2) The background image must:
+   - Cover the entire CTA section
+   - Be properly centered
+   - Use background-size: cover
+   - Maintain high quality (no stretching or distortion)
+   - Be responsive across desktop and mobile
+
+3) Slightly enlarge the CTA section height so:
+   - The background image is clearly visible
+   - The image composition looks balanced
+   - The text and button remain readable
+   - The section does not feel compressed
+
+--------------------------------------------------
+OVERLAY & READABILITY
+--------------------------------------------------
+
+- Add a soft overlay (if needed) to ensure text readability.
+- The overlay must:
+   - Match the existing brand color palette
+   - Not darken the image excessively
+   - Maintain visual harmony with the site
+
+--------------------------------------------------
+RESPONSIVE BEHAVIOR
+--------------------------------------------------
+
+Desktop:
+- Background should feel immersive and premium.
+- Maintain strong visual presence.
+
+Mobile:
+- Keep text centered and readable.
+- Ensure background crops properly without awkward focus points.
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT redesign the CTA.
+Do NOT move elements.
+Do NOT change button size or animation.
+Only update the background image and slightly increase the section height for better visual balance.
+
+The final result must look:
+Premium.
+Immersive.
+Balanced.
+Consistent with ElMalahy branding.
+Production-ready quality.

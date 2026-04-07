@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Vibrant Purple Theme - Light Mode */
+  --primary: 265 85% 55%;        /* #8B5CF6 - Vivid Purple */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 45 95% 60%;       /* #FBBF24 - Electric Yellow */
+  --secondary-foreground: 265 85% 20%;
+  
+  --accent: 320 80% 60%;         /* #DB2777 - Hot Pink (for highlights) */
+  --accent-foreground: 0 0% 100%;
+  
+  --background: 260 20% 98%;     /* Very light purple tint */
+  --foreground: 260 40% 20%;     /* Dark purple text */
+  
+  --card: 0 0% 100%;
+  --card-foreground: 260 40% 20%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 260 40% 20%;
+  
+  --muted: 260 20% 94%;
+  --muted-foreground: 260 20% 50%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  
+  --border: 260 20% 90%;
+  --input: 260 20% 90%;
+  --ring: 265 85% 55%;
+  
+  --radius: 1rem;
+  
+  --font-display: 'Fredoka', cursive;
+  --font-body: 'Quicksand', sans-serif;
+}
+
+/* Dark Mode Theme */
+.dark {
+  --primary: 265 85% 65%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 45 95% 65%;
+  --secondary-foreground: 265 85% 20%;
+
+  --accent: 320 80% 70%;
+  --accent-foreground: 0 0% 100%;
+
+  --background: 222 25% 9%;      /* Deep midnight navy */
+  --foreground: 220 10% 95%;
+
+  --card: 222 22% 14%;
+  --card-foreground: 220 10% 95%;
+
+  --popover: 222 22% 14%;
+  --popover-foreground: 220 10% 95%;
+
+  --muted: 222 18% 20%;
+  --muted-foreground: 220 10% 58%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 222 18% 22%;
+  --input: 222 18% 22%;
+  --ring: 265 85% 65%;
+}
+
+/* Dark mode body — rich layered deep background */
+.dark body {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 10%, hsl(265 60% 18% / 0.25) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 90%, hsl(210 60% 15% / 0.2) 0%, transparent 60%),
+    hsl(222 25% 9%);
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-secondary selection:text-secondary-foreground;
+    font-family: var(--font-body);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+  }
+  .text-shadow-lg {
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  }
+  .box-shadow-pop {
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.1);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.5);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}

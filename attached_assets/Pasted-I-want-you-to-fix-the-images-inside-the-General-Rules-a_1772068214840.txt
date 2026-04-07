@@ -1,0 +1,71 @@
+I want you to fix the images inside the "General Rules" and "Disclaimer" sections 
+in the "ElMalahy – The Land of Amusement" website.
+
+IMPORTANT:
+- Do NOT change image size.
+- Do NOT change image scale.
+- Do NOT zoom in or zoom out.
+- Do NOT modify layout.
+- Do NOT adjust spacing.
+- Do NOT alter container dimensions.
+- Do NOT replace the images.
+- Only fix the border radius issue.
+
+--------------------------------------------------
+CURRENT ISSUE
+--------------------------------------------------
+
+The frame/container has rounded corners (border-radius applied),
+but the image inside does NOT have matching rounded corners.
+
+As a result:
+- The image edges appear sharp.
+- The image does not visually match the curved frame.
+- The design looks inconsistent.
+
+--------------------------------------------------
+REQUIRED FIX
+--------------------------------------------------
+
+Make the image follow the same curve as the container.
+
+Implementation Requirements:
+- Apply the SAME border-radius value to the image.
+- Ensure the image respects the parent container rounding.
+- If needed, use:
+     overflow: hidden on the container
+     and ensure the image fills the container properly.
+- Maintain exact same size and proportions.
+
+--------------------------------------------------
+RESPONSIVE BEHAVIOR
+--------------------------------------------------
+
+- The curve must remain consistent on Desktop and Mobile.
+- No layout shift.
+- No resizing.
+- No cropping changes.
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT:
+- Modify image dimensions.
+- Change object-fit.
+- Change padding or margins.
+- Add effects.
+- Adjust shadows.
+- Touch any other section.
+- Modify section design.
+- Change background colors.
+- Add new effects.
+- Alter other components. 
+
+Only ensure the image itself inherits and visually matches the curved frame.
+
+Final result must feel:
+Clean.
+Polished.
+Visually consistent.
+Production-ready.

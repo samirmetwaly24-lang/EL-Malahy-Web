@@ -1,0 +1,99 @@
+I want you to update the Dark Mode toggle button in the existing 
+"ElMalahy – The Land of Amusement" website built with React and Next.js.
+
+IMPORTANT:
+- Do NOT redesign the control panel.
+- Do NOT modify layout structure.
+- Do NOT change colors of other UI elements.
+- Only replace the current Dark Mode toggle button design.
+
+--------------------------------------------------
+REPLACE DARK MODE BUTTON WITH CUSTOM ICON
+--------------------------------------------------
+
+Replace the current Dark Mode button with the uploaded element.
+
+Requirements:
+
+1) The uploaded element must be used as the icon itself.
+2) The icon must NOT be placed inside:
+   - a circle
+   - a square
+   - a background container
+3) The icon should appear standalone (clean icon style).
+
+--------------------------------------------------
+ICON STYLE
+--------------------------------------------------
+
+- Maintain the original visual style of the uploaded element.
+- Ensure the icon fits naturally with the website design.
+- Size should be balanced with other icons in the control panel.
+
+Recommended size range:
+- Desktop: 22–28px
+- Mobile: 20–24px
+
+--------------------------------------------------
+HOVER ANIMATION
+--------------------------------------------------
+
+Add a smooth hover animation when the user points to the icon.
+
+Animation requirements:
+
+- Slight scale-up effect (subtle zoom)
+- Soft glow or brightness increase
+- Smooth transition (200–300ms)
+- Optional very small rotation or bounce effect
+
+The animation must feel:
+- playful
+- modern
+- lightweight
+- consistent with the amusement park theme
+
+--------------------------------------------------
+CLICK BEHAVIOR
+--------------------------------------------------
+
+When the icon is clicked:
+
+- Toggle between Light Mode and Dark Mode.
+- Maintain the existing theme switching logic.
+- Preserve localStorage theme preference.
+
+--------------------------------------------------
+RESPONSIVE REQUIREMENTS
+--------------------------------------------------
+
+Desktop:
+- Icon should be clearly visible and clickable.
+
+Mobile:
+- Maintain proper spacing so it is easy to tap.
+
+--------------------------------------------------
+STRICT RULE
+--------------------------------------------------
+
+Do NOT:
+- Add background shapes
+- Change panel layout
+- Modify theme logic
+- Alter other icons
+
+Only replace the Dark Mode button with the uploaded icon 
+and add a smooth hover animation.
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+The icon should feel:
+
+Clean  
+Modern  
+Interactive  
+Premium  
+Consistent with the ElMalahy brand.

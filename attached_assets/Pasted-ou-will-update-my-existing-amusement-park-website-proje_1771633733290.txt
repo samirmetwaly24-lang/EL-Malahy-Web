@@ -1,0 +1,167 @@
+ou will update my existing amusement park website project.
+
+IMPORTANT:
+- Do NOT modify anything that is not explicitly mentioned below.
+- Keep all existing layouts, styles, logic, and structure unchanged unless clearly instructed.
+- Only implement the requested changes.
+- Use ONLY the uploaded real data, real images, and official logos that I will provide.
+- Do NOT generate placeholder images or fake content.
+
+--------------------------------------------------
+1) HERO SECTION BACKGROUND UPDATE
+--------------------------------------------------
+Replace the current static background image in the Hero section (shown in the uploaded screenshot) with a short looping video reel instead of an image.
+
+Requirements:
+- The video must autoplay.
+- It must be muted.
+- It must loop continuously.
+- It must be optimized for performance.
+- Keep the same overlay, layout, text alignment, and spacing exactly as before.
+- Do NOT change the section structure.
+
+--------------------------------------------------
+2) CHANGE HERO TITLE TEXT
+--------------------------------------------------
+Replace the text:
+
+"Unleash the Fun!"
+
+With:
+
+"Let The Fun Begun"
+
+Requirements:
+- Keep the exact same font.
+- Keep the same font weight.
+- Keep the same colors (including the highlighted word styling).
+- Keep the same text size and positioning.
+
+Do NOT modify any other hero content.
+
+--------------------------------------------------
+3) ADD LIVE PARK ENERGY BAR (Top Strip)
+--------------------------------------------------
+Add a thin top bar above the navbar displaying:
+
+🔥 “Today’s Park Energy: Very High!”
+
+Logic:
+- The energy level should dynamically depend on the number of bookings today.
+- Example logic:
+   Low bookings → “Low”
+   Medium bookings → “Moderate”
+   High bookings → “Very High”
+- The bar should feel lively and animated (subtle glow or pulsing effect).
+- It must not break the existing layout.
+- Keep it responsive.
+
+--------------------------------------------------
+4) FIX DUPLICATE BUNDLES IN PACKAGES PAGE
+--------------------------------------------------
+On the Packages page:
+- There is bundle duplication.
+- Ensure each bundle appears ONLY once.
+- Remove repeated entries.
+- Do NOT redesign the page.
+- Do NOT change styling.
+Only fix duplication logic.
+
+--------------------------------------------------
+5) CHANGE WEBSITE NAME & SLOGAN
+--------------------------------------------------
+Update the website name everywhere to:
+
+"ElMalahy"
+
+Add slogan:
+
+"The Land of Amusement"
+
+Apply:
+- Navbar
+- Footer
+- Metadata if exists
+- Any branding section
+
+Do NOT alter layout design.
+
+--------------------------------------------------
+6) ADD CREATIVE CALL TO ACTION (END OF HOME PAGE)
+--------------------------------------------------
+At the bottom of the Home page, add a strong creative Call-To-Action section.
+
+Requirements:
+- Large bold headline.
+- Emotional and exciting message.
+- Animated button (example: “Book Your Adventure Now”).
+- Subtle animated background or visual effect.
+- Must visually stand out but stay consistent with current theme.
+- Must increase urgency and conversions.
+
+Do NOT redesign the rest of the homepage.
+
+--------------------------------------------------
+7) RIDE DETAILS PAGE WITH RULES
+--------------------------------------------------
+When clicking on any ride:
+- Navigate to its dedicated dynamic page.
+- Display:
+   - Ride name
+   - Real ride image (from uploaded data)
+   - Price
+   - Category
+   - Full description
+   - Clear "Rules & Safety" section
+
+The Rules section must:
+- Be visually separated.
+- Be readable.
+- Use the exact rules provided in the uploaded data.
+- No generated or fake rules.
+
+--------------------------------------------------
+8) E-TICKET / QR CODE SYSTEM
+--------------------------------------------------
+After successful payment:
+
+1) On Confirmation Page:
+   - Immediately display a QR code.
+   - Below the QR code show:
+        • Customer Name
+        • Selected Package
+        • Quantity Purchased
+   - Clean layout.
+
+2) Email:
+   - Send confirmation email.
+   - Include the same QR code.
+   - Include customer name, package, quantity.
+
+3) QR Verification:
+   - When QR code is scanned:
+       → Open a unique verification page on the website.
+       → Show ticket validity.
+       → Show booking details.
+
+Each QR must be unique per transaction.
+
+--------------------------------------------------
+9) USE ONLY REAL UPLOADED DATA
+--------------------------------------------------
+I will upload:
+- Real ride images
+- Official logos
+- Real structured ride data
+- Rules
+- Package details
+
+You must:
+- Use every uploaded image in its correct section.
+- Use official logos correctly.
+- Do NOT replace images.
+- Do NOT invent content.
+- Do NOT use placeholders.
+
+--------------------------------------------------
+10) DO NOT CHANGE ANYTHING ELSE
